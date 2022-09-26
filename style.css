@@ -190,7 +190,7 @@ ul, li {
     align-items: center;
     margin-top: 10px;
     margin-left: 0px;
-    margin-right: 40px;
+    margin-right: 20px;
     font-size: 13px;
     line-height: 1.47059;
     font-weight: 500;
@@ -228,7 +228,7 @@ ul, li {
 .logosize {
     height: 75px;
     margin-top: 6px;
-    margin-left: 5px;
+    margin-left: 0.5px;
     justify-content: center;
     align-items: center;
 }
@@ -267,14 +267,15 @@ ul, li {
     flex-direction: column;
     width: 100%;
     height: 400px;
-    margin-top: 400px;
-    margin-left: 50px;
+    margin-top: 370px;
+    margin-left: 120px;
     padding: 0px;
 }
 .bg-image-title {
     display: flex;
-    font-size: 50px;
+    font-size: 36px;
     text-align: left;
+    margin-left: 60px;
     line-height: 1.47059;
     font-weight: 700;
     letter-spacing: 0.042em;
@@ -283,6 +284,7 @@ ul, li {
 .bg-image-text {
     display: flex;
     height: 35px;
+    margin-left: 120px;
     font-size: 18px;
     line-height: 1.47059;
     font-weight: 600;
@@ -293,6 +295,8 @@ ul, li {
     background-color: transparent;
     color: #fff;
     width: 150px;
+    margin-left: 120px;
+    margin-top: 10px;
     height: 40px;
     font-size: 16px;
     line-height: 1.47059;
@@ -308,7 +312,7 @@ ul, li {
 .series {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 0.5px;
 }
 .series-top {
     display: flex;
@@ -325,7 +329,7 @@ ul, li {
 .series-kindof {
     display: flex;
     padding: 40px 20px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     border-bottom: 1px solid #000;
 }
@@ -333,14 +337,14 @@ ul, li {
     display: flex;
     color: #999;
     padding: 30px 20px;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
     border-bottom: 4px solid dimgray;
 }
 .gallery {
     display: flex;
     padding: 60px;
-    margin-left: 200px;
+    margin-left: 240px;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -367,6 +371,7 @@ ul, li {
     text-align: left;
 }
 .main-blog {
+    width: 600px;
     padding: 60px;
     display: flex;
     flex-wrap: nowrap;
@@ -376,7 +381,7 @@ ul, li {
 .main-blog-post {
     width: 260px;
     height: 400px;
-    margin: 60px;
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
     text-align: left;
@@ -404,7 +409,7 @@ ul, li {
 }
 .main-big-post {
     display: flex;
-    margin: 50px;
+    margin: 20px;
     width: 540px;
     height: 440px;
     flex-direction: column;
@@ -431,7 +436,7 @@ ul, li {
 }
 .bottom-menu-item {
     display: flex;
-    width: 280px;
+    width: 270px;
     height: 150px;
     margin-left: 10px;
     margin-right: 10px;
@@ -455,6 +460,7 @@ ul, li {
     background-color: #999;
     margin-left: 60px;
     margin-right: 60px;
+    padding: 160px;
 }
 .column {
     display: flex;
@@ -464,13 +470,13 @@ ul, li {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-top: 120px;
-    margin-bottom: 100px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 .footer__underline {
     position: relative;
 }
-.footer__underline:after {
+.footer__underline:before {
     content: '';
     width: calc(100% - 110px);
     height: 0.5px;
